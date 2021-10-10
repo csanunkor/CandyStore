@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.android.example.candystore.MainActivity">
+    <item
+        android:title="@string/add"
+        app:showAsAction="ifRoom"
+        android:id="@+id/action_add"
+        android:icon="@android:drawable/ic_menu_add"/>
+    <item
+        android:title="@string/delete"
+        app:showAsAction="ifRoom"
+        android:id="@+id/action_delete"
+        android:icon="@android:drawable/ic_menu_delete"/>
+    <item
+        android:title="@string/update"
+        app:showAsAction="ifRoom"
+        android:id="@+id/action_update"
+        android:icon="@android:drawable/ic_menu_edit"/>
+</menu>
