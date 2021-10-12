@@ -51,7 +51,7 @@
         android:layout_marginTop="50dp"
         android:id="@+id/button_back"
         android:layout_below="@+id/button_add"
-        android:onClick="back"
+        android:onClick="goBack"
         android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>

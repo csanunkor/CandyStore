@@ -3,6 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.android.example.candystore.MainActivity">
     <item
+        android:title="@string/reset"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_reset"
+        android:id="@+id/action_reset"/>
+    <item
         android:title="@string/add"
         app:showAsAction="ifRoom"
         android:id="@+id/action_add"

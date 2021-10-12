@@ -43,7 +43,8 @@ public class UpdateActivity extends AppCompatActivity {
 
             // retrieve width of screen
             Point size = new Point();
-            getWindowManager( ).getDefaultDisplay( ).getSize( size ); int width = size.x;
+            getWindowManager( ).getDefaultDisplay( ).getSize( size );
+            int width = size.x;
             int i=0;
             for ( Candy candy : candies ) {
                 // create the TextView for the candy's id

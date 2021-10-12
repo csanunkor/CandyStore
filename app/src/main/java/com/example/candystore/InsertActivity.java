@@ -48,6 +48,6 @@ public class InsertActivity extends AppCompatActivity {
         priceEditText.setText(""); }
 
     public void goBack(View v) {
-        InsertActivity.this.finish();
+        this.finish();
     }
 }
